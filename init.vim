@@ -9,7 +9,10 @@ Plug('morhetz/gruvbox')
 Plug('tpope/vim-fugitive')
 Plug('nvim-treesitter/nvim-treesitter')
 Plug('neovim/nvim-lspconfig')
-
+Plug('preservim/nerdtree')
+"TODO: figure out how to use this on mac"
+Plug('ctrlpvim/ctrlp.vim')
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
