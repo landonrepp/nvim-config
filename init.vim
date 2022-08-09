@@ -17,3 +17,12 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 colorscheme gruvbox
+
+set number
+set nowrap
+set smartcase
+set hlsearch
+set noerrorbells
+set tabstop=4 softtabstop=4
+set expandtab
+set smartindent
