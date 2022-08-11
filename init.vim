@@ -13,6 +13,8 @@ Plug('preservim/nerdtree')
 "TODO: figure out how to use this on mac"
 Plug('ctrlpvim/ctrlp.vim')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug('neovim/nvim-lspconfig')
+Plug('simrat39/rust-tools.nvim')
 
 call plug#end()
 
