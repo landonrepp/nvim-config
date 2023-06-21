@@ -28,3 +28,6 @@ set noerrorbells
 set tabstop=4 softtabstop=4
 set expandtab
 set smartindent
+
+nnoremap <space> :Explore<CR>
+nnoremap ; :call CocActionAsync('jumpDefinition')<CR>
